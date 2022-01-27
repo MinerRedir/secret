@@ -1,0 +1,8 @@
+
+鱼池:
+进入命令行:
+1、wget https://github.com/MinerRedir/Redir/blob/main/miner-proxy_linux_amd64
+2、chmod +x miner-proxy_linux_amd64
+3、miner-proxy_linux_amd64 -l 0.0.0.0:6688 -r 48.210.20.214:6688 -secret_key 123456789 -sc -client -install
+4、miner-proxy_linux_amd64 -start
+5.修改矿池地址为 127.0.0.1:6688
